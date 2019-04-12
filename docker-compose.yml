@@ -15,7 +15,7 @@ services:
     - 8.8.4.4
   volumes:
     - /etc/localtime:/etc/localtime:ro
-    - /your/storage/path/:/data
+    - /your/storage/path/:/downloads
   environment:
     - OPENVPN_PROVIDER=PIA
     - OPENVPN_USERNAME=username
